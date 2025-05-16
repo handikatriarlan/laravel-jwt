@@ -1,0 +1,20 @@
+meta {
+  name: Register New User
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Arlan Tri Handika",
+    "email": "handikaarlan@gmail.com",
+    "password": 123123123,
+    "password_confirmation": 123123123
+  }
+}

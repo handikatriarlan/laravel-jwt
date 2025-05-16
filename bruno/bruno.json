@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "laravel-jwt",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
